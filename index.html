@@ -4,131 +4,144 @@
   <meta charset="UTF-8" />
   <title>Cave Secrète – Private French Wine Club</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Cave Secrète is a private French wine club in Australia, sourcing quality French wines at fair prices for a small circle of families." />
+  <meta name="description" content="Cave Secrète is a private French wine club offering carefully selected French wines at cost + 10% sourcing fee, curated for a small group of families and friends." />
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Titles serif, text sans-serif -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
+  <!-- HEADER -->
   <header class="site-header">
-    <div class="header-inner">
-      <img src="logo.png" alt="Cave Secrète logo" class="logo" />
-      <nav class="nav">
-        <a href="#home">Home</a>
-        <a href="#selection">Current Selection</a>
-        <a href="#how">How It Works</a>
-        <a href="#about">About</a>
-        <a href="#membership">Membership</a>
-        <a href="#soldout">Sold Out</a>
-      </nav>
+    <div class="logo-wrapper">
+      <img src="assets/logo.png" alt="Cave Secrète logo" class="logo" />
     </div>
+    <nav class="main-nav">
+      <a href="#home">Home</a>
+      <a href="#selection">Current Selection</a>
+      <a href="#how">How It Works</a>
+      <a href="#about">About</a>
+      <a href="#membership">Membership</a>
+      <a href="#soldout">Sold Out</a>
+    </nav>
   </header>
 
   <main>
+
     <!-- HOME -->
-    <section id="home" class="section hero">
-      <div class="section-inner">
+    <section id="home" class="section section-home">
+      <div class="container">
         <h1>Cave Secrète</h1>
         <h2 class="subtitle">Private French Wine Club</h2>
         <p>
-          Cave Secrète is a private French wine club for a small circle of families in Australia, focused on authentic French wines sourced at fair prices.
+          Cave Secrète is a small, invitation-only wine club dedicated to sharing authentic French wine
+          at fair prices with a close circle of families and friends in Australia.
         </p>
         <p>
-          I grew up in Burgundy, near Chablis, where wine is part of everyday life. Since moving to Australia, I’ve seen how difficult it can be to find good French wine at a fair price. Bottle shop prices are often 50–100% higher than in France, and the quality can be inconsistent.
+          Every bottle is sourced as if I were choosing it for my own cellar. Prices are always
+          <strong>cost + 10% sourcing fee</strong> — nothing more.
         </p>
-        <p>
-          Cave Secrète exists to quietly bridge that gap. Every bottle is sourced as if I were buying it for my own cellar, and offered at <strong>cost + a 10% sourcing fee</strong>.
-        </p>
-        <p>
-          Selections change depending on what I find at auction and through trusted suppliers. Membership remains intentionally small to keep the club personal, discreet, and genuinely useful.
-        </p>
-        <a class="primary-button" href="#selection">View current selection</a>
+        <a href="#selection" class="btn primary-btn">View current selection</a>
       </div>
     </section>
 
-    <!-- CURRENT SELECTION -->
+    <!-- SELECTION -->
     <section id="selection" class="section section-alt">
-      <div class="section-inner">
+      <div class="container">
         <h2>Current Selection</h2>
         <p class="section-intro">
-          All wines offered here come directly from France, sourced through auctions and trusted suppliers in Australia. I only buy bottles that represent genuine value compared to French retail prices, and only wines I would happily put in my own cellar.
-        </p>
-        <p class="section-intro">
-          Typical price range: <strong>$40–$80</strong>, with occasional special bottles when an exceptional opportunity appears at auction.
+          All wines listed here are French and carefully selected for quality and value —
+          typically priced between <strong>$40–$80</strong>, depending on availability at auction.
         </p>
 
-        <div class="wine-list">
-          <!-- EXAMPLE WINE CARD 1 -->
+        <div class="wine-grid">
+
+          <!-- WINE 1 -->
           <article class="wine-card">
-            <h3>Château Les Cruzelles 2018 &mdash; $85</h3>
+            <img src="assets/wines/cruzelles-2018.jpg" alt="Château Les Cruzelles 2018" class="wine-photo" />
+            <h3>Château Les Cruzelles 2018 – $85</h3>
             <p class="wine-region">Lalande-de-Pomerol, Bordeaux</p>
-            <p class="wine-notes">
-              Silky, structured Bordeaux with dark fruit, fine tannins, and long finish. Excellent value at a price close to what it sells for in France.
+            <p>
+              Silky and structured with dark fruit, fine tannins, and a long finish.
+              Exceptional value compared with retail prices.
             </p>
-            <p class="wine-order"><strong>To reserve:</strong> text me on <a href="sms:+61499562199">04 99 562 199</a>.</p>
+            <p class="reserve">
+              To reserve: text <a href="tel:+61499562199">04 99 562 199</a>
+            </p>
           </article>
 
-          <!-- EXAMPLE WINE CARD 2 -->
+          <!-- WINE 2 -->
           <article class="wine-card">
-            <h3>Domaine Servin Chablis 2021 &mdash; $52</h3>
+            <h3>Domaine Servin Chablis 2021 – $52</h3>
             <p class="wine-region">Chablis, Burgundy</p>
-            <p class="wine-notes">
-              Fresh, mineral-driven Chablis with citrus, salinity, and a clean finish. A classic expression from a traditional Burgundy domaine.
+            <p>
+              Fresh, mineral-driven Chablis with citrus notes and a clean, saline finish.
+              A classic expression from a traditional domaine.
             </p>
-            <p class="wine-order"><strong>To reserve:</strong> text me on <a href="sms:+61499562199">04 99 562 199</a>.</p>
+            <p class="reserve">
+              To reserve: text <a href="tel:+61499562199">04 99 562 199</a>
+            </p>
           </article>
 
-          <!-- EXAMPLE WINE CARD 3 -->
+          <!-- WINE 3 -->
           <article class="wine-card">
-            <h3>Crozes-Hermitage 2020 &mdash; $68</h3>
-            <p class="wine-region">Northern Rhône, France</p>
-            <p class="wine-notes">
-              Dark fruit, spice, and elegance; a fine example of Rhône Syrah offering serious character and value.
+            <h3>Domaine des Hauts Châssis “Les Châssis” 2020 – $68</h3>
+            <p class="wine-region">Crozes-Hermitage, Northern Rhône</p>
+            <p>
+              Dark fruit, spice, and bright aromatics. A superb example of Rhône Syrah
+              offering genuine character at a fair price.
             </p>
-            <p class="wine-order"><strong>To reserve:</strong> text me on <a href="sms:+61499562199">04 99 562 199</a>.</p>
+            <p class="reserve">
+              To reserve: text <a href="tel:+61499562199">04 99 562 199</a>
+            </p>
           </article>
 
-          <!-- You can duplicate wine-card blocks above and change the details -->
         </div>
+
+        <p class="fine-print">
+          Quantities are limited. Bottles are reserved on a first-come, first-served basis.
+        </p>
       </div>
     </section>
 
     <!-- HOW IT WORKS -->
     <section id="how" class="section">
-      <div class="section-inner">
+      <div class="container">
         <h2>How It Works</h2>
         <p class="section-intro">
-          Cave Secrète is designed to be simple, personal, and transparent.
+          The philosophy is simple, transparent, and personal.
         </p>
 
         <div class="columns">
           <div class="column">
             <h3>Sourcing</h3>
             <ul>
-              <li>Only French wines &mdash; Burgundy, Bordeaux, Rhône, Loire, Champagne, and other regions.</li>
-              <li>Wines are sourced from auctions, private collections, and trusted importers in Australia.</li>
-              <li>I only buy bottles I would be happy to drink myself or add to my own cellar in Burgundy.</li>
+              <li>Only French wines — Burgundy, Bordeaux, Rhône, Loire, Champagne, and more.</li>
+              <li>Purchased through auctions, private collections, and trusted importers.</li>
+              <li>Every bottle is one I would happily buy for myself.</li>
             </ul>
           </div>
+
           <div class="column">
             <h3>Pricing</h3>
             <ul>
-              <li>You pay exactly what I pay at auction or from suppliers.</li>
-              <li>A flat <strong>10% sourcing fee</strong> covers time, research, and handling.</li>
-              <li>Before buying, I check retail prices in both Australia and France.</li>
-              <li>I only buy when the pricing offers genuine value compared to France.</li>
+              <li>You pay exactly what I pay.</li>
+              <li>A flat <strong>10% sourcing fee</strong> covers research and time.</li>
+              <li>I only buy when the price is fair compared with France.</li>
+              <li>No profit — if someone buys ten bottles, I treat myself to a nice bottle.</li>
             </ul>
           </div>
+
           <div class="column">
             <h3>Ordering</h3>
             <ol>
-              <li>Browse the current selection on this site.</li>
-              <li>Text me with the bottles and quantities you would like.</li>
-              <li>I confirm availability and reserve bottles for you.</li>
-              <li>Payment is made by bank transfer.</li>
-              <li>Collection or delivery is arranged directly.</li>
+              <li>Browse the current selection.</li>
+              <li>Text me with your preferred bottles.</li>
+              <li>I confirm availability and reserve them for you.</li>
+              <li>Payment via bank transfer.</li>
+              <li>Collection or delivery arranged directly.</li>
             </ol>
           </div>
         </div>
@@ -137,85 +150,104 @@
 
     <!-- ABOUT -->
     <section id="about" class="section section-alt">
-      <div class="section-inner">
+      <div class="container">
         <h2>About Cave Secrète</h2>
+
         <p>
-          My name is Yoann. I was born and raised in Burgundy, not far from Chablis. Wine has always been part of everyday life &mdash; from family meals to visits with local winemakers.
+          I grew up in Burgundy, not far from Chablis, and I’ve always mostly drunk French wine.
+          I keep a private cellar in Burgundy with more than 400 bottles, and over the last ten years
+          I’ve purchased more than 300 bottles of French wine in Australia.
         </p>
+
         <p>
-          I keep a private cellar in Burgundy with more than 400 bottles, and over the last ten years I have purchased more than 500 bottles at auction in Australia. I mostly drink French wine, and I know how it feels to stand in front of a shelf here, pick a bottle at random, and end up disappointed.
+          Since moving here, I’ve realised how hard it can be to find good French wine at a fair price.
+          Bottle shops often charge double or triple the cost in France, and many importers focus on wines
+          tailored to Australian tastes — bigger, riper, and more fruit-driven — rather than classic French styles.
         </p>
+
         <p>
-          Many people in Australia face the same problem when buying French wine: high prices, confusing labels, and no guarantee that the wine will suit their taste.
+          When I first arrived, I didn’t know anything about Australian wine (I still don’t).
+          I would pick bottles at random and often end up disappointed. I realised that Australians must feel
+          exactly the same when trying to choose a French bottle for the first time — unfamiliar labels,
+          inconsistent styles, and very high prices.
         </p>
+
         <p>
-          Cave Secrète is my way of making French wine a little easier for a small group of families and friends. The principles are simple:
+          Cave Secrète is my way of making French wine a little easier and more accessible for a small group of
+          families and friends. The principles are simple:
         </p>
+
         <ul>
           <li>Only French wine.</li>
           <li>Only bottles I would buy for myself.</li>
           <li>Only when the price is reasonable compared to France.</li>
           <li>Only cost + 10% sourcing fee.</li>
-          <li>Only for a small, private group.</li>
+          <li>Only small quantities — this is not a commercial operation.</li>
         </ul>
+
         <p>
-          Everyone’s taste is different. The goal is not to tell people what they should like, but to give them the chance to explore good French wine without bottle-shop mark-ups.
+          Everyone’s taste is different. The goal isn’t to tell people what they should like, but to give
+          them the opportunity to explore quality French wine without bottle-shop mark-ups.
         </p>
       </div>
     </section>
 
     <!-- MEMBERSHIP -->
     <section id="membership" class="section">
-      <div class="section-inner">
+      <div class="container">
         <h2>Membership</h2>
         <p>
-          Cave Secrète is intentionally small to keep things personal and to make sure there is enough wine for everyone.
+          Cave Secrète is intentionally small. To keep things personal and ensure there is enough wine for everyone,
+          membership is limited to a small number of families.
         </p>
+
         <p>
-          Membership is by invitation and focused on people who genuinely enjoy French wine and want to explore it more deeply. At the moment, numbers are limited to a small group of families.
+          At the moment, membership is by invitation only. If you’re interested in joining the waiting list,
+          send a text with your name and wine preferences.
         </p>
-        <p>
-          If you are interested in joining the waiting list, you can send me a message with:
-        </p>
-        <ul>
-          <li>Your name</li>
-          <li>Your email address</li>
-          <li>Your mobile number</li>
-          <li>How you heard about Cave Secrète</li>
-          <li>Which French wine styles you enjoy (for example: Burgundy, Bordeaux, Rhône, Champagne, Loire)</li>
-        </ul>
-        <p>
-          <strong>To enquire about membership:</strong> text me on <a href="sms:+61499562199">04 99 562 199</a>.
+
+        <p class="highlight-box">
+          To enquire about membership:<br />
+          <strong>04 99 562 199</strong>
         </p>
       </div>
     </section>
 
     <!-- SOLD OUT -->
     <section id="soldout" class="section section-alt">
-      <div class="section-inner">
+      <div class="container">
         <h2>Sold Out Selection</h2>
+
         <p class="section-intro">
-          A few examples of bottles that have previously been offered through Cave Secrète. This gives an idea of the style and level of wines in the club.
+          A few examples of bottles previously offered through Cave Secrète:
         </p>
+
         <ul class="soldout-list">
-          <li>Château Cantemerle 2016 &mdash; Haut-Médoc, Bordeaux &mdash; Sold out</li>
-          <li>Domaine de la Janasse 2018 &mdash; Châteauneuf-du-Pape &mdash; Sold out</li>
-          <li>Domaine Tempier 2020 &mdash; Bandol &mdash; Sold out</li>
-          <li>Gevrey-Chambertin 2017 &mdash; Burgundy &mdash; Sold out</li>
-          <li>Chablis Premier Cru Montmains 2019 &mdash; Burgundy &mdash; Sold out</li>
+          <li>Château Cantemerle 2016 – Haut-Médoc, Bordeaux</li>
+          <li>Domaine Tempier 2020 – Bandol</li>
+          <li>Domaine de la Janasse 2018 – Châteauneuf-du-Pape</li>
+          <li>Gevrey-Chambertin 2017 – Drouhin-Laroze</li>
+          <li>Chablis Premier Cru Montmains 2019</li>
         </ul>
       </div>
     </section>
+
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
-    <div class="footer-inner">
-      <p>Cave Secrète &mdash; Private French Wine Club</p>
-      <p>Based in Australia &mdash; Text orders only: <a href="sms:+61499562199">04 99 562 199</a></p>
-      <p class="footer-note">
-        This website does not process payments. All transactions are arranged privately with existing members.
-      </p>
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <img src="assets/logo.png" alt="Cave Secrète small logo" />
+      </div>
+      <div class="footer-text">
+        <p>Cave Secrète – Private French Wine Club</p>
+        <p>Based in Australia</p>
+        <p>Text orders and enquiries: <a href="tel:+61499562199">04 99 562 199</a></p>
+        <p class="footer-note">This website does not process payments. All transactions are arranged privately.</p>
+      </div>
     </div>
   </footer>
+
 </body>
 </html>
