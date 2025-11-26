@@ -98,40 +98,10 @@
         </p>
 
         <div class="wine-grid">
-
-          <!-- WINE 1 -->
-          <article class="wine-card">
-            <img src="assets/wines/cruzelles-2018.jpg"
-                 alt="Château Les Cruzelles 2018"
-                 class="wine-photo" />
-            <h3>Château Les Cruzelles 2018 – $85</h3>
-            <p class="wine-region">Lalande-de-Pomerol, Bordeaux</p>
-            <p>
-              Silky and structured with dark fruit and a long finish. One of the strongest values
-              on the right bank at this level.
-            </p>
-          </article>
-
-          <!-- WINE 2 -->
-          <article class="wine-card">
-            <h3>Domaine Servin Chablis 2021 – $52</h3>
-            <p class="wine-region">Chablis, Burgundy</p>
-            <p>
-              Fresh, mineral-driven Chablis with citrus and a clean, saline finish.
-              Classic everyday white Burgundy.
-            </p>
-          </article>
-
-          <!-- WINE 3 -->
-          <article class="wine-card">
-            <h3>Domaine des Hauts Châssis “Les Châssis” 2020 – $68</h3>
-            <p class="wine-region">Crozes-Hermitage, Northern Rhône</p>
-            <p>
-              Dark fruit, spice and lifted aromatics. Serious Rhône Syrah with excellent value.
-            </p>
-          </article>
-
+        <!-- Wine entries loaded from wines.html -->
+        <div id="wine-container"></div>
         </div>
+
 
         <p class="fine-print">Bottles are limited. First come, first served.</p>
       </div>
@@ -256,6 +226,15 @@
     </div>
   </footer>
 
+  <script>
+  fetch("wines.html")
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById("wine-container").innerHTML = html;
+    });
+</script>
+
 </body>
 </html>
+
 
