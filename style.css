@@ -212,20 +212,6 @@ p, li {
   transform: translateY(-4px);
 }
 
-.wine-photo {
-  width: 100%;
-  max-height: 380px;
-  object-fit: contain;
-  margin-bottom: 1.2rem;
-  border-radius: 6px;
-}
-
-.wine-region {
-  color: #666;
-  font-size: 0.95rem;
-  margin-bottom: 0.9rem;
-}
-
 /* Gold circular premium badge */
 .wine-badge {
   position: absolute;
@@ -245,6 +231,20 @@ p, li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.wine-photo {
+  width: 100%;
+  max-height: 380px;
+  object-fit: contain;
+  margin-bottom: 1.2rem;
+  border-radius: 6px;
+}
+
+.wine-region {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 0.9rem;
 }
 
 /* ----------------------------------------------------------
@@ -320,6 +320,7 @@ ul, ol {
     text-align: center;
   }
 }
+
 
 
 
