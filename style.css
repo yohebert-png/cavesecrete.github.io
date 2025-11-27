@@ -206,7 +206,9 @@ p, li {
   border: 1px solid var(--border-soft);
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   transition: transform 0.2s ease;
+  position: relative;   /* ← THIS IS THE MISSING LINE */
 }
+
 
 .wine-card:hover {
   transform: translateY(-4px);
@@ -320,6 +322,7 @@ ul, ol {
     text-align: center;
   }
 }
+
 
 
 
