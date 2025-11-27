@@ -226,6 +226,26 @@ p, li {
   margin-bottom: 0.9rem;
 }
 
+/* Gold circular premium badge */
+.wine-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #c7a76c;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.70rem;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+  line-height: 0.9rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* ----------------------------------------------------------
    HIGHLIGHT BOXES
@@ -300,5 +320,6 @@ ul, ol {
     text-align: center;
   }
 }
+
 
 
