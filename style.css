@@ -219,6 +219,18 @@ p, li {
   grid-column: span 2;
 }
 
+/* Note */
+.special-note {
+  background: #f8f3e9;
+  padding: 0.9rem 1.2rem;
+  border-left: 4px solid #c7a76c;
+  border-radius: 6px;
+  margin: 1.2rem 0;
+  color: #4c3f2f;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  font-style: italic;
+}
 
 /* Gold circular premium badge */
 .wine-badge {
@@ -337,6 +349,7 @@ ul, ol {
     text-align: center;
   }
 }
+
 
 
 
