@@ -214,6 +214,12 @@ p, li {
   transform: translateY(-4px);
 }
 
+/* Double-width featured wine card */
+.wine-card-wide {
+  grid-column: span 2;
+}
+
+
 /* Gold circular premium badge */
 .wine-badge {
   position: absolute;
@@ -331,6 +337,7 @@ ul, ol {
     text-align: center;
   }
 }
+
 
 
 
