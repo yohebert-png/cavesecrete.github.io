@@ -275,6 +275,16 @@ p, li {
   font-style: italic;
 }
 
+.wine-pricing-grid {
+  display: flex;
+  gap: 20px;
+  margin: 12px 0;
+  font-size: 0.9rem;
+}
+.wine-pricing-grid div {
+  flex: 1;
+}
+
 
 /* ----------------------------------------------------------
    HIGHLIGHT BOXES
@@ -349,6 +359,7 @@ ul, ol {
     text-align: center;
   }
 }
+
 
 
 
