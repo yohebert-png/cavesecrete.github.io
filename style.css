@@ -297,6 +297,12 @@ p, li {
   font-style: italic;
 }
 
+.wine-fr-price {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 4px 0 2px;
+}
+
 
 /* ----------------------------------------------------------
    HIGHLIGHT BOXES
@@ -371,6 +377,7 @@ ul, ol {
     text-align: center;
   }
 }
+
 
 
 
