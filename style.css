@@ -285,6 +285,18 @@ p, li {
   flex: 1;
 }
 
+.price-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 8px 0;
+}
+
+.wine-pricing-center {
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 
 /* ----------------------------------------------------------
    HIGHLIGHT BOXES
@@ -359,6 +371,7 @@ ul, ol {
     text-align: center;
   }
 }
+
 
 
 
